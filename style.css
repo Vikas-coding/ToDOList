@@ -142,3 +142,18 @@ ul li span{
 ul li span:hover{
     background: #f3f3f3;
 }
+
+@media (max-width: 768px) {
+    .row {
+      flex-direction: column; /* Stack elements vertically on small screens */
+    }
+  
+    #input-box {
+      width: 100%; /* Make the input box full width on small screens */
+      margin-bottom: 10px; /* Add some spacing between input and button */
+    }
+  
+    button {
+      width: 100%; /* Make the button full width on small screens */
+    }
+  }
